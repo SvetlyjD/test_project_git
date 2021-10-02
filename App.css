@@ -1,0 +1,67 @@
+.container {
+  text-align: center;
+  width: 580px;
+  background-color: lightyellow;
+margin-left: 450px;
+margin-top: 180px;
+border: 1px solid lightslategray;
+}
+
+.tableTask {
+margin-top: 5px;
+  border-radius: 10px;
+    border:1px solid lightgreen;
+}
+
+.trTask {
+  border-radius: 10px 0 0 10px;
+  width: 350px;
+}
+
+.trTaskRight {
+  border-radius: 0 10px 10px 0;
+}
+
+.trOneTask {
+  margin-top: 2px;
+  border: 1px solid lightskyblue;
+  text-align: center;
+  overflow-wrap: break-word;
+  background-color: lightsalmon;
+}
+
+.trOneTaskCompleted {
+  margin-top: 2px;
+  border: 1px solid lightskyblue;
+  text-align: center;
+  overflow-wrap: break-word;
+  background-color: lightskyblue;
+}
+
+.iconDel {
+  margin-left: 10px;
+}
+
+.taskTrue {
+  background-color: rgb(65, 68, 253);
+}
+.taskFalse {
+  background-color: red;
+}
+
+.taskAdd {
+  background-color: rgb(103, 207, 103);
+}
+
+.taskDel {
+  background-color: lightsalmon;
+}
+
+.inputTask {
+  width: 250px;
+}
+
+.goods-field {
+  width: 580px;
+  text-align: center;
+}
