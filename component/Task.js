@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { completedGood, deleteGood } from "../store/taskSlice"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+// comment for git
 function Task({ title, id, completed }) {
     const dispatch = useDispatch();
     const deleteGoodsOne = () => {
